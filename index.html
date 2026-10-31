@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UMS-F – Отзывы покупателей об энурезном будильнике | 23-Amaliy Ish</title>
+  <meta name="description" content="Реальные отзывы родителей об эффективном детском энурезном будильнике UMS-F. Более 120 семей избавились от ночного энуреза без лекарств.">
+  <meta name="keywords" content="UMS-F, энурезный будильник, отзывы UMS, детский энурез, лечение энуреза, ночной будильник, сухие ночи">
+
+  <!-- OpenGraph / Social Meta Tags -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="UMS-F – Отзывы покупателей (Figma Design 1:2)">
+  <meta property="og:description" content="Точная реализация макета Figma UMS-F (node-id: 1:2). Реальные отзывы, интерактивная пагинация и фильтрация.">
+  <meta property="og:image" content="figma_preview.png">
+
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg">
+</head>
+<body>
+
+  <!-- ========================================================================
+       1. Site Header & Sticky Navigation
+       ======================================================================== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#0" class="brand-wrap">
+        <img src="assets/images/logo.svg" alt="UMS-F Logo" class="brand-logo-img">
+        <span class="brand-badge">MedTech</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Основная навигация">
+        <a href="#about-device" class="nav-link">О приборе</a>
+        <a href="#how-it-works" class="nav-link">Как это работает</a>
+        <a href="#reviewsSection" class="nav-link active">Отзывы (128)</a>
+        <a href="#faq" class="nav-link">Вопросы и ответы</a>
+        <a href="#contacts" class="nav-link">Контакты</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="tel:+78005553535" class="btn-contact">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+          </svg>
+          8 (800) 555-35-35
+        </a>
+        <button class="btn-primary-cta" data-open-modal="review">Оставить отзыв</button>
+      </div>
+
+      <button class="mobile-menu-btn" aria-label="Открыть мобильное меню">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <!-- ========================================================================
+       2. Breadcrumbs
+       ======================================================================== -->
+  <div class="breadcrumbs-bar">
+    <div class="breadcrumbs-container">
+      <nav class="breadcrumbs-list" aria-label="Хлебные крошки">
+        <span class="breadcrumb-item"><a href="#0">Главная</a></span>
+        <span class="breadcrumb-separator">/</span>
+        <span class="breadcrumb-item"><a href="#0">Каталог</a></span>
+        <span class="breadcrumb-separator">/</span>
+        <span class="breadcrumb-item"><a href="#0">Энурезный будильник UMS-F</a></span>
+        <span class="breadcrumb-separator">/</span>
+        <span class="breadcrumb-current">Отзывы покупателей</span>
+      </nav>
+    </div>
+  </div>
+
+  <main>
+    <!-- ========================================================================
+         3. Hero Stats Bar
+         ======================================================================== -->
+    <section class="page-hero">
+      <div class="hero-stats-card">
+        <div class="hero-heading-group">
+          <h1>Отзывы об энурезном будильнике UMS-F</h1>
+          <p>Мнения и реальный опыт родителей, чьи дети успешно преодолели ночной энурез</p>
+        </div>
+
+        <div class="stats-flex">
+          <div class="stat-item">
+            <div class="stat-number">
+              5.0
+              <div class="stat-stars">
+                <img src="assets/images/star.svg" alt="star">
+                <img src="assets/images/star.svg" alt="star">
+                <img src="assets/images/star.svg" alt="star">
+                <img src="assets/images/star.svg" alt="star">
+                <img src="assets/images/star.svg" alt="star">
+              </div>
+            </div>
+            <span class="stat-label">Рейтинг на основе 128 отзывов</span>
+          </div>
+
+          <div class="stat-item">
+            <div class="stat-number">100%</div>
+            <span class="stat-label">Покупателей рекомендуют товар</span>
+          </div>
+
+          <button class="btn-open-review-modal" data-open-modal="review">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+            </svg>
+            Написать отзыв
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         4. Filter & Search Toolbar
+         ======================================================================== -->
+    <section class="toolbar-wrap">
+      <div class="toolbar-card">
+        <div class="filter-pills">
+          <button class="filter-btn active" data-filter="all">Все отзывы (128)</button>
+          <button class="filter-btn" data-filter="5star">Только 5 звезд (124)</button>
+          <button class="filter-btn" data-filter="parents">От родителей (98)</button>
+        </div>
+
+        <div class="toolbar-controls">
+          <div class="search-input-wrap">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+            </svg>
+            <input type="text" id="reviewSearchInput" class="search-input" placeholder="Поиск по отзывам...">
+          </div>
+
+          <select id="reviewSortSelect" class="sort-select" aria-label="Сортировка отзывов">
+            <option value="newest">Сначала новые</option>
+            <option value="oldest">Сначала старые</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         5. FIGMA EXACT CARD SECTION (node-id: 1:2)
+         ======================================================================== -->
+    <section class="figma-frame-section" id="reviewsSection">
+      <div class="figma-frame-card">
+        <!-- Dynamic Review List Container -->
+        <div class="reviews-list-container" id="reviewsList">
+          <!-- Injected dynamically by main.js with fallback semantic HTML below -->
+          
+          <!-- Review 1: Татьяна Самойленко -->
+          <article class="review-item">
+            <div class="review-header">
+              <div class="author-info">
+                <h3 class="author-name">Татьяна Самойленко</h3>
+                <span class="review-date">06.09.2020</span>
+              </div>
+              <div class="review-stars">
+                <img src="assets/images/star.svg" alt="star" class="star-icon">
+                <img src="assets/images/star.svg" alt="star" class="star-icon">
+                <img src="assets/images/star.svg" alt="star" class="star-icon">
+                <img src="assets/images/star.svg" alt="star" class="star-icon">
+                <img src="assets/images/star.svg" alt="star" class="star-icon">
+              </div>
+            </div>
+            <div class="review-body">
+              <p>Спасибо вам большое за такое устройство,мы уже спим без клеёнки,но пока ещё с будильником,дочка ещё не готова его снимать говорит что для подстраховки,но я рада что рискнула и заказала будильник у нас он прозвенел 3 раза и всё, теперь спим всю ночь,а раньше каждую ночь вставали менять постель,а бывало и два раза,результат на лицо, надеюсь что больше мы к этой проблеме не вернёмся, ещё раз спасибо.</p>
+            </div>
+          </article>
+
+          <!-- Review 2: Анонимно -->
+          <article class="review-item">
+            <div class="review-header">
+              <div class="author-info">
+                <h3 class="author-name">Анонимно</h3>
+                <span class="review-date">06.03.2021</span>
+              </div>
+              <div class="review-stars">
+                <img src="assets/images/star.svg" alt="star" class="star-icon">
+                <img src="assets/images/star.svg" alt="star" class="star-icon">
+                <img src="assets/images/star.svg" alt="star" class="star-icon">
+                <img src="assets/images/star.svg" alt="star" class="star-icon">
+                <img src="assets/images/star.svg" alt="star" class="star-icon">
+              </div>
+            </div>
+            <div class="review-body">
+              <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            </div>
+          </article>
+
+          <!-- Review 3: Степан Ивонов -->
+          <article class="review-item">
+            <div class="review-header">
+              <div class="author-info">
+                <h3 class="author-name">Степан Ивонов</h3>
+                <span class="review-date">06.09.2020</span>
+              </div>
+              <div class="review-stars">
+                <img src="assets/images/star.svg" alt="star" class="star-icon">
+                <img src="assets/images/star.svg" alt="star" class="star-icon">
+                <img src="assets/images/star.svg" alt="star" class="star-icon">
+                <img src="assets/images/star.svg" alt="star" class="star-icon">
+                <img src="assets/images/star.svg" alt="star" class="star-icon">
+              </div>
+            </div>
+            <div class="review-body">
+              <p>Спасибо вам большое за такое устройство,мы уже спим без клеёнки,но пока ещё с будильником,дочка ещё не готова его снимать говорит что для подстраховки,но я рада что рискнула и заказала будильник у нас он прозвенел 3 раза и всё, теперь спим всю ночь,а раньше каждую ночь вставали менять постель,а бывало и два раза,результат на лицо, надеюсь что больше мы к этой проблеме не вернёмся, ещё раз спасибо.</p>
+            </div>
+          </article>
+
+          <!-- Review 4: Степан -->
+          <article class="review-item">
+            <div class="review-header">
+              <div class="author-info">
+                <h3 class="author-name">Степан</h3>
+                <span class="review-date">06.09.2020</span>
+              </div>
+              <div class="review-stars">
+                <img src="assets/images/star.svg" alt="star" class="star-icon">
+                <img src="assets/images/star.svg" alt="star" class="star-icon">
+                <img src="assets/images/star.svg" alt="star" class="star-icon">
+                <img src="assets/images/star.svg" alt="star" class="star-icon">
+                <img src="assets/images/star.svg" alt="star" class="star-icon">
+              </div>
+            </div>
+            <div class="review-body">
+              <p>Спасибо вам большое за такое устройство,мы уже спим без клеёнки,но пока ещё с будильником,дочка ещё не готова его снимать говорит что для подстраховки,но я рада что рискнула и заказала будильник у нас он прозвенел 3 раза и всё, теперь спим всю ночь,а раньше каждую ночь вставали менять постель,а бывало и два раза,результат на лицо, надеюсь что больше мы к этой проблеме не вернёмся, ещё раз спасибо.</p>
+            </div>
+          </article>
+        </div>
+
+        <!-- Pagination (Exact Figma layout: < 1 2 3 >) -->
+        <nav class="pagination-wrapper" id="paginationWrapper" aria-label="Пагинация отзывов">
+          <button class="pagination-btn arrow-btn" data-page="prev" disabled aria-label="Предыдущая страница">&lt;</button>
+          <button class="pagination-btn active" data-page="1" aria-label="Страница 1">1</button>
+          <button class="pagination-btn" data-page="2" aria-label="Страница 2">2</button>
+          <button class="pagination-btn" data-page="3" aria-label="Страница 3">3</button>
+          <button class="pagination-btn arrow-btn" data-page="next" aria-label="Следующая страница">&gt;</button>
+        </nav>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         6. Device Clinical Highlights
+         ======================================================================== -->
+    <section class="device-highlights-section" id="how-it-works">
+      <div class="highlights-grid">
+        <div class="highlight-card">
+          <div class="highlight-icon-wrap">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <div class="highlight-content">
+            <h4>Клинически доказано</h4>
+            <p>Методика условного рефлекса рекомендована ВОЗ как первая линия помощи при энурезе без медикаментов.</p>
+          </div>
+        </div>
+
+        <div class="highlight-card">
+          <div class="highlight-icon-wrap">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <div class="highlight-content">
+            <h4>Результат за 2-4 недели</h4>
+            <p>У 93% детей стойкий рефлекс просыпания или удержания мочи формируется в течение первого месяца.</p>
+          </div>
+        </div>
+
+        <div class="highlight-card">
+          <div class="highlight-icon-wrap">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
+            </svg>
+          </div>
+          <div class="highlight-content">
+            <h4>100% Безопасность</h4>
+            <p>Миниатюрный датчик работает от безопасного микротока (3В), клипса не травмирует и не стесняет движения во сне.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================
+         7. Frequently Asked Questions (FAQ)
+         ======================================================================== -->
+    <section class="faq-section" id="faq">
+      <h2 class="faq-title">Часто задаваемые вопросы</h2>
+      <div class="faq-accordion">
+        <div class="faq-item open">
+          <button class="faq-question">
+            <span>С какого возраста можно использовать будильник UMS-F?</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <p>Прибор рекомендован детям от 5 лет, когда ночное недержание уже классифицируется как персистирующий энурез. Применение безопасно, так как устройство не использует медикаменты или электростимуляцию, а тренирует естественный нейрорефлекс мозга.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Не испугает ли ребенка звуковой сигнал ночью?</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <p>В модели UMS-F предусмотрена плавная регулировка громкости и комбинированный режим мягкой вибрации вместе со звуком. Это обеспечивает надежное пробуждение без стресса и испуга.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Как правильно крепить датчик влажности?</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+            </svg>
+          </button>
+          <div class="faq-answer">
+            <p>Специальная анатомическая клипса с позолоченными контактами надежно фиксируется на наружной стороне хлопкового нижнего белья. Датчик реагирует на первые капли жидкости, передавая мгновенный сигнал на блок будильника.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       8. Site Footer
+       ======================================================================== -->
+  <footer class="site-footer" id="contacts">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <a href="#0" class="brand-wrap">
+          <img src="assets/images/logo.svg" alt="UMS-F Logo" class="brand-logo-img">
+        </a>
+        <div class="footer-links">
+          <a href="#about-device">О технологии</a>
+          <a href="#reviewsSection">Отзывы родителей</a>
+          <a href="#how-it-works">Инструкция по применению</a>
+          <a href="#faq">Консультация специалиста</a>
+        </div>
+      </div>
+
+      <p class="footer-disclaimer">
+        UMS-F является сертифицированным изделием для поведенческой терапии ночного энуреза у детей и подростков. Перед применением проконсультируйтесь с педиатром или детским урологом.
+      </p>
+
+      <div class="footer-bottom">
+        <p>© 2026 UMS-F Medical Device. Все права защищены. 23-Amaliy Ish.</p>
+        <p>Figma Design: <a href="https://www.figma.com/file/qZC4dXbm8KLKyd0h7ftI3v/UMS-F-(Copy)?type=design&node-id=1%3A2&mode=design&t=duMmwSmtpPekzPrz-1" target="_blank" style="text-decoration: underline; color: var(--color-primary);">UMS-F (Copy) (node-id: 1:2)</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       9. Leave Review Modal Dialog
+       ======================================================================== -->
+  <div class="modal-overlay" id="reviewModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 id="modalTitle">Оставить отзыв о UMS-F</h3>
+        <button class="modal-close-btn" data-close-modal aria-label="Закрыть модальное окно">&times;</button>
+      </div>
+
+      <form id="newReviewForm">
+        <div class="modal-body">
+          <div class="form-group">
+            <label class="form-label">Ваша оценка *</label>
+            <div class="star-rating-picker" id="starPicker">
+              <span class="star-pick-btn active" data-val="1">★</span>
+              <span class="star-pick-btn active" data-val="2">★</span>
+              <span class="star-pick-btn active" data-val="3">★</span>
+              <span class="star-pick-btn active" data-val="4">★</span>
+              <span class="star-pick-btn active" data-val="5">★</span>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="reviewerName">Ваше имя и фамилия</label>
+            <input type="text" id="reviewerName" class="form-control" placeholder="Например, Анна Сергеева (или оставьте пустым для 'Анонимно')">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="reviewerText">Текст вашего отзыва *</label>
+            <textarea id="reviewerText" class="form-control" placeholder="Расскажите о вашем опыте использования энурезного будильника UMS-F..." required></textarea>
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn-secondary" data-close-modal>Отмена</button>
+          <button type="submit" class="btn-submit">Опубликовать отзыв</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast-notification" id="toastNotification" role="alert">
+    <span class="toast-icon">✓</span>
+    <span id="toastMessage">Отзыв успешно добавлен!</span>
+  </div>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTopBtn" aria-label="Наверх">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+    </svg>
+  </button>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
